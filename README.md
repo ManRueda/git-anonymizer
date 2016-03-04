@@ -12,7 +12,7 @@ If you have a bower component in an internal repository, you can configure bower
 * [What is supported](#what-is-supported)
     * [By Name](#by-name)
     * [By AuthToken](#by-authtoken)
-    * [By User & Password](#by-user---password)
+    * [By User & Password](#by-user--password)
     * [repos.json Example](#reposjson-example)
 * [Usage](#usage)
     * [For example](#for-example)
