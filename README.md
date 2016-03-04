@@ -19,8 +19,12 @@ By now, the service only clone repositories. Supporting The Smart HTTP protocol.
 Because of that, you always need to clone with a HTTP URL and not a Git URL.
 
 ## Configuration
+There are some configurations in the ```package.json```:
+* ```port```: HTTP port to listen.
+* ```cluster.cpu```: Count of child proccess created in cluster mode. (1 for no cluster)
+* ```cluster.autoRestart```: To restart killed child proccess.
 
-The only configuration needed is fill the repos.json file with the repositories allowed to be cloned.
+And the ```repos.json``` file should be filled with the repositories allowed to be cloned.
 
 The json can manage repositories in three groups:
 

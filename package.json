@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "port": 8080,
+  "cluster": {
+      "cpu": 4,
+      "autoRestart": true
+  },
   "scripts": {
   },
   "repository": {
