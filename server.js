@@ -70,5 +70,5 @@ if (pkg.cluster.cpu && pkg.cluster.cpu > 1 && cluster.isMaster){
         }
     });
 
-    server.listen(pkg.port);
+    server.listen(process.env.PORT || pkg.port);
 }
