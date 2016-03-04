@@ -9,14 +9,14 @@ If you have a bower component in an internal repository, you can configure bower
 
 ## Index
 * [Disclaimer](#disclaimer)
-* [What is supported](#what_is_supported)
-    * [By Name](#by_name)
-    * [By AuthToken](#by_authtoken)
-    * [By User & Password](#by_user_&_password)
-    * [repos.json Example](#repos.json_example)
+* [What is supported](#what-is-supported)
+    * [By Name](#by-name)
+    * [By AuthToken](#by-authtoken)
+    * [By User & Password](#by-user---password)
+    * [repos.json Example](#reposjson-example)
 * [Usage](#usage)
-    * [For example](#for_example)
-* [IISNode use](#iisnode_use)
+    * [For example](#for-example)
+* [IISNode use](#iisnode-use)
 
 ## Disclaimer
 Take in mind that you are making public something that really is private.
