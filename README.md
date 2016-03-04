@@ -7,6 +7,17 @@ You can configure an internal repository with a common set of credentials and al
 
 If you have a bower component in an internal repository, you can configure bower to install it from the service and no from the real repository.
 
+## Index
+* [Disclaimer](#disclaimer)
+* [What is supported](#what_is_supported)
+    * [By Name](#by_name)
+    * [By AuthToken](#by_authtoken)
+    * [By User & Password](#by_user_&_password)
+    * [repos.json Example](#repos.json_example)
+* [Usage](#usage)
+    * [For example](#for_example)
+* [IISNode use](#iisnode_use)
+
 ## Disclaimer
 Take in mind that you are making public something that really is private.
 
@@ -100,3 +111,6 @@ To clone the repo with service, i could run this:
 ```bash
 git clone http://localhost:8880/ManRueda/git-anonymizer.git
 ```
+
+## IISNode use
+To use it with IISNode, have in mind to deactivate the cluster mode and manage the cluster with IISNode.
