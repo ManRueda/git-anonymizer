@@ -49,7 +49,7 @@ if (pkg.cluster.cpu && pkg.cluster.cpu > 1 && cluster.isMaster){
             } else if (props.user && props.password) {
                 debug('    auth user: %s', props.user);
                 debug('    auth password: %s', props.password);
-                serverReq.auth(props.user, props.password, false);
+                serverReq.auth(props.user, props.password);
             } else {
                 debug('    Not auth data');
                 res.writeHead(500, { 'Content-Type': 'text/plain' });
