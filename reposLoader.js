@@ -2,15 +2,15 @@
 const rawRepos = require('./repos.json');
 const repos = {};
 
-if (rawRepos.byName){
-    for(let key in rawRepos.byName){
+if (rawRepos.byName) {
+    for (let key in rawRepos.byName) {
         repos[key] = rawRepos.byName[key];
     }
 }
 
-if (rawRepos.byBasicAuth){
-    for(let token in rawRepos.byBasicAuth){
-        for(let key in rawRepos.byBasicAuth[token]){
+if (rawRepos.byBasicAuth) {
+    for (let token in rawRepos.byBasicAuth) {
+        for (let key in rawRepos.byBasicAuth[token]) {
             repos[key] = {
                 basicAuth: token,
                 url: rawRepos.byBasicAuth[token][key]
@@ -19,9 +19,9 @@ if (rawRepos.byBasicAuth){
     }
 }
 
-if (rawRepos.byUserPass){
-    for(let auth in rawRepos.byUserPass){
-        for(let key in rawRepos.byUserPass[auth]){
+if (rawRepos.byUserPass) {
+    for (let auth in rawRepos.byUserPass) {
+        for (let key in rawRepos.byUserPass[auth]) {
             repos[key] = {
                 user: auth.split(':')[0],
                 password: auth.split(':')[1],
