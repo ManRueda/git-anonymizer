@@ -4,16 +4,19 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ManRueda/git-anonymizer.git"
   },
-  "author": "",
+  "author": "Manuel Rueda <manuel.rueda.un@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ManRueda/git-anonymizer/issues"
   },
-  "homepage": "https://github.com/ManRueda/git-anonymizer#readme"
+  "homepage": "https://github.com/ManRueda/git-anonymizer#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "request": "^2.69.0"
+  }
 }

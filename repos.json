@@ -1,0 +1,23 @@
+{
+    "byName": {
+        "ManRueda/git-anonymizer1": {
+            "user": "my.super.user@some.com",
+            "password": "XXXXXXXX",
+            "url":"https://github.com/ManRueda/git-anonymizer.git"
+        },
+        "ManRueda/git-anonymizer4": {
+            "basicAuth": "bWFudNvbTpCYWdfNrVHJhY2sLmNvbTpCYWNrVHJhY2syMDEz",
+            "url":"https://github.com/ManRueda/git-anonymizer.git"
+        }
+    },
+    "byBasicAuth": {
+        "bWFudNvbTpCYWdfNrVHJhY2sLmNvbTpCYWNrVHJhY2syMDEz": {
+            "ManRueda/git-anonymizer2": "https://github.com/ManRueda/git-anonymizer.git"
+        }
+    },
+    "byUserPass": {
+        "my.super.user@some.com:XXXXXXXX": {
+            "ManRueda/git-anonymizer3": "https://github.com/ManRueda/git-anonymizer.git"
+        }
+    }
+}
